@@ -11,8 +11,8 @@ _курсивный_
 ```
 <a href="#" class="scroll-to">
 ```
-
-``` JavaScript
+##JavaScript
+``` 
 $("a.scroll-to").on("click", function(e){ // скрипт для плавного скрола
       e.preventDefault();
       let anchor = $(this).attr('href');
