@@ -1,2 +1,2 @@
-��# -Adaptive menu + burger
+## Adaptive menu + burger
 
