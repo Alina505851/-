@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бургер</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- меню для компа -->
+    <nav class="menu_pk">
+        <!-- обертка флекс -->
+        <div class="wrapper_row">
+            <!-- лого -->
+            <div class="logo">
+                <img width="80px" src="img/3.png" alt="logo">
+            </div>
+            <!-- меню в строку -->
+            <ul class="menu_row">
+                <li><a href="#sec1">Преемущества</a></li>
+                <li><a href="#sec2">О нас</a></li>
+                <li><a href="#sec3">Услуги</a></li>
+                <li><a href="#sec4">Вакансии</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- меню для телефона -->
+    <nav class="menu_phone">
+        <!-- обертка флекс -->
+        <div class="wrapper_row">
+            <div class="logo">
+                <picture>
+                    <!--маленький лого для телефона с разрешением экрана МЕНЬШЕ 555 -->
+                    <source srcset="img/3.png" width="50px" height="50px" media="(max-width:555px)">
+                    <!--маленький лого для телефона с экраном  БОЛЬШЕ  555-->
+                    <img width="80px" src="img/3.png" alt="logo">
+                </picture>
+            </div>
+            <div class="burger">
+                <div id="nav-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <!-- меню в столбик -->
+        <div class="menu_column">
+            <ul>
+                <li><a href="#sec2" class="scroll-to">Преемущества</a></li> <!--класс для функции плавного скрола -->
+                <li><a href="#sec3" class="scroll-to">О нас</a></li>
+                <li><a href="#sec4" class="scroll-to">Услуги</a></li>
+                <li><a href="#sec5" class="scroll-to">Вакансии</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="sec1">
+        <h1>Первая секция</h1>
+    </section>
+    <section id="sec2">
+        <h1>Вторая секция</h1>
+    </section>
+    <section id="sec3">
+        <h1>Третья секция</h1>
+    </section>
+    <section id="sec4">
+        <h1>Четвертая секция</h1>
+    </section>
+    <section id="sec5">
+        <h1>Пятая секция</h1>
+    </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
