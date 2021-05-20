@@ -14,8 +14,8 @@ _курсивный_
 
 ## JavaScript
 ```  JavaScript
-$("a.scroll-to").on("click", function(e){ // скрипт для плавного скрола
-      e.preventDefault();
+$("a.scroll-to").on("click", function(e){ // при клике на ссылку с классом "scroll-to" 
+      e.preventDefault(); //запускается функция
       let anchor = $(this).attr('href');
       $('html, body').stop().animate({
           scrollTop: $(anchor).offset().top - 0 // если есть фиксированная шапка заменить 0 на ее размер
