@@ -67,7 +67,7 @@
 ``` JavaScript
 $(function () {
    $('#nav-icon').click(function () { //при клике на бургер
-      $(this).toggleClass('open'); //он трансформируется
+      $(this).toggleClass('open'); // добавляется заранее прописанный класс
    });
 });
 ```
