@@ -48,6 +48,7 @@
         top: 30px;
         transform-origin: left center;
     }
+    // заранее прописываем "открытый" стиль бургера
     #nav-icon.open span:nth-child(1) {
         transform: rotate(45deg);
         top: 0px;
